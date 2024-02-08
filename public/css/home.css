@@ -1,0 +1,126 @@
+.h7 {
+    font-size: 0.8rem;
+}
+
+.gedf-wrapper {
+    margin-top: 0.97rem;
+}
+
+.badge-primary {
+    border-radius: 15px;
+    background-color:   #4f94cd;
+    padding: 5px 8px 5px 8px;
+}
+
+.card {
+    border-radius: .65rem;
+    border: none;
+}
+
+.btn-outline-primary {
+    color: gray;
+    /*background-color: transparent;
+    background-image: none;*/
+    border-color: white;
+}
+
+.card-header {
+    border: none;
+    background-color: white;
+}
+
+.card-footer {
+    border: none;
+    background-color: white;
+}
+
+#popular {
+    color:  #4f94cd;
+}
+
+.card-body .d-flex h6 {
+    font-size: 13px;
+}
+
+textarea.form-control {
+    border: none;
+    background-color: #e5e5e5;
+}
+
+#postcard {
+    background-color: #e5e5e5;
+    border-radius: .65rem;
+}
+
+.card-text, .card-footer a {
+    font-size: 14px;
+    color: gray;
+}
+
+.fa {
+    color: gray;
+}
+
+#suggested {
+    padding-right: 28px;
+}
+
+.list-group-item {
+    border: none;
+}
+
+.jumbotron {
+    background-color: #e5e5e5;
+}
+
+.container {
+    background-color: #eeeeee;
+    border-radius: .65rem;
+}
+
+#profile {
+    margin: -16px 0px 0px -5px;
+}
+
+#search {
+    border: none;
+}
+
+.btn-group>.btn:first-child {
+    margin-left: 290px;
+    padding: 8px 30px 8px 30px;
+    background-color:   #4f94cd;
+    border: none;
+}
+
+@media (min-width: 992px) {
+    .gedf-main {
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+}
+
+/**Reset Bootstrap*/
+.dropdown-toggle::after {
+    content: none;
+}
+
+
+
+nav{
+    width: 100%;
+    background-color: brown;
+    padding: 10px 20px;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+  }
+
+  nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+  }
